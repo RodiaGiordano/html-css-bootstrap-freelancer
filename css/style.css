@@ -7,5 +7,11 @@ header{
 }
 
 .container{
-    height: 100px;
+    min-height: 100px;
+}
+
+
+
+section:nth-child(odd){
+    background-color: #1ABC9C;
 }
