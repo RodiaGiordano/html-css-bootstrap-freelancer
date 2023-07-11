@@ -158,24 +158,50 @@
 
         <section class="contact">
             <div class="container py-5">
+                <div class="row g-3 justify-content-center">
 
-                <div class="text-uppercase">
-                    Contact me
+                    <h2 class="text-uppercase text-center">
+                        contact me
+                    </h2>
+                    
+                    <div class="star d-flex justify-content-center align-items-center">
+                        <div class="col-2 bar-star bg-dark rounded-2">
+                            <!-- bar star left -->
+                        </div>
+                        <div class="mx-3 fs-3">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="col-2 bar-star bg-dark rounded-2">
+                            <!-- bar-star rigth -->
+                        </div>
+                    </div>
+
+                    
+                    <form class="col-8" action="http://learning.tizianonicolai.com/request-catcher/" method="post">
+                        
+                        <div class="mb-3">
+                            <input type="text" class="form-control border-0 border-bottom" name="name" id="name" required placeholder="Name">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <input type="email" class="form-control border-0 border-bottom" name="email" id="email" required placeholder="Email Address">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <input type="tel" class="form-control border-0 border-bottom" name="telephone" id="telephone" required placeholder="Phone Number">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <textarea class="form-control border-0 border-bottom" name="textarea" id="textarea" required placeholder="Message" rows="5"></textarea>
+                        </div>
+                        
+                        <div>
+                            <button class="btn btn-success border-0 _bottom_form">Send</button>
+                        </div>
+                    </form>
+                    
+
                 </div>
-
-                <div class="star">
-                    <span>linea</span>
-                    <span>Stellina</span>
-                    <span>linea</span>
-                </div>
-
-                <form action="#">
-                    <input type="text" name="f-name_l-name" placeholder="name"><br>
-                    <input type="email" name="mail_addres" placeholder="Email Address"><br>
-                    <input type="number" name="phone_number" placeholder="Phone Number"><br>
-                    <textarea name="message" id="" cols="50" rows="10" placeholder="Message"></textarea><br>
-                    <input type="submit" name="send-form" value="Send">
-                </form>
             </div>
         </section>
     </main>
