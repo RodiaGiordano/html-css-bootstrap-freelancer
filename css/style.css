@@ -24,4 +24,11 @@ section:nth-child(odd){
     height: 3px;
 }
 
-/* <i class="fa-solid fa-star"></i> */
+.icon_f i{
+    width: 40px;
+    aspect-ratio: 1;
+    line-height: 40px;
+    
+}
+/* <i class="fa-regular fa-copyright"></i> */
+
